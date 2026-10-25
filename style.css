@@ -17,6 +17,24 @@ a {
     text-decoration: none;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.0rem;
+    padding: 1rem;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-bar li:hover {
+    color: darkblue;
+}
+
 .hello {
     display: grid;
     place-items: center;
@@ -36,7 +54,7 @@ a {
 
 .socials a:hover {
     color: rgb(18, 93, 244);
-    transform: translateY(-2px);
+    transform: translateY(-1.8px);
 }
 
 .socials i{
@@ -45,23 +63,15 @@ a {
 
 .email {
     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.0rem;
-    padding: 1rem;
+.about {
+    max-width: 600px;
+    margin: 60px auto 0;
+    font-size: 17px;
 }
 
-.nav-bar {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
+.about p + p {
+    margin-top: 1rem;
 }
-
-.nav-bar li:hover {
-    color: darkblue;
-}
-
