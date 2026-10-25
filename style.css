@@ -9,7 +9,7 @@ body {
     line-height: 2.0;
     padding: 20px;
     color: black;
-    background-color:rgb(222, 234, 255);
+    background-color: rgb(192, 226, 255);
 }
 
 a {
@@ -29,6 +29,11 @@ nav {
     display: flex;
     gap: 2rem;
     list-style: none;
+    padding: 12px;
+    line-height: 1.6;
+    border: 1px solid #b9cdf2;
+    border-radius: 10px;
+    background-color: rgba(227, 237, 255, 0.563);
 }
 
 .nav-bar li:hover {
@@ -68,10 +73,28 @@ nav {
 
 .about {
     max-width: 600px;
-    margin: 60px auto 0;
-    font-size: 17px;
+    margin: 45px auto 0;
+    font-size: 16px;
+}
+
+.about a{
+    text-decoration: underline;
+    transition: color .18s;
+}
+
+.about a:hover {
+    color: rgb(18, 93, 244);
 }
 
 .about p + p {
     margin-top: 1rem;
+}
+
+iframe {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    margin: 40px auto 0;
+    width: 50%;
+    height: 152px;
 }
