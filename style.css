@@ -27,7 +27,7 @@ nav {
 
 .nav-bar {
     display: flex;
-    gap: 2rem;
+    gap: 10rem;
     list-style: none;
     padding: 12px;
     line-height: 1.6;
@@ -77,14 +77,14 @@ nav {
     font-size: 16px;
 }
 
-.about a{
+.about a, .coursework a{
     color: royalblue;
     text-decoration: underline;
     text-decoration-color:royalblue;
     transition: color .2s;
 }
 
-.about a:hover {
+.about a:hover, .coursework a:hover{
     color:black;
     text-decoration-color: black;  
 }
@@ -93,9 +93,13 @@ nav {
     margin-top: 1rem;
 }
 
-.coursework, .learning {
+.coursework, .learning, .fun {
     max-width: 600px;
     margin: 30px auto 0;
+}
+
+.learning h4 {
+    font-style:italic;
 }
 
 iframe {
