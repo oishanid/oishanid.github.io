@@ -133,6 +133,24 @@ img:hover {
     transform: translateY(-2.6px);
 }
 
+.gallery {
+    columns: 3 260px;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.gallery figure {
+    margin: 0 0 20px;
+    break-inside: avoid;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
 .interests {
     max-width: 900px;
     margin: 60px auto 0;
