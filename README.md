@@ -1,6 +1,6 @@
 # oishanid.github.io
 
-Live site: **[oishanid.github.io](https://github.io)**
+Live site: **[oishanid.github.io](https://oishanid.github.io)**
 
 This personal website introduces who I am, what I'm studying, and my hobbies. I built it completely from scratch with plain HTML and CSS (no frameworks or JavaScript).
 
