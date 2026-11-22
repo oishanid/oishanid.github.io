@@ -125,6 +125,13 @@ nav {
     font-style:italic;
 }
 
+.dual-credit {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-left: 0.5em;
+}
+
 img {
     transition: transform 0.18s;
 }
